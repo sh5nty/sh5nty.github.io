@@ -1,0 +1,35 @@
+<!Doctype html!>
+<html>
+<head> review of html tags </head>
+<title> about me </title>
+<body>
+<h1> this is my first page - biography </h1>
+<h2> personal </h2>
+<p> i work at mather high school, i have 3 kids . 
+i love to watch soccer and my favorite team is mexico
+</p>
+
+
+<h2> school </h2>
+<p> which school you go to? three things  you like or want to improve? </p>
+
+<ul> 3 features </ul> <!-- unordered list -->
+<li> professors were awesome</li>
+<li> gym was great</li>
+<li> labs were state of art </li>
+</ul>
+
+<ol> 3 improvements     <!-- ordered list -->
+<li> need to have inter-campus transportation</li>
+<li> easy scheduling </li>
+<li> hard to navigate buildings </li>
+</lo>
+
+<ol type='a'> 3 dream colleges<!-- ordered list -->
+<li> harvard university </li>
+<li> al-azhar university </li>
+<li>  MIT</li>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!Doctype html!>
+<html>
+<head> contact me </head>
+<title> contact me</title>
+<body>
+<h1> this is my third page - biography </h1>
+<nav style='background-color:yellow; text-align:center; 
+font-weight:bold; font-size:20'>
+<a href= 'p1_aboutme.html'> about me </a> 
+<a href= 'p2_hobby.html'> hobby </a>
+<a href= 'p3_contact.html'> contact me </a>
+
+</nav>
+
+<style>
+a:link{ color:red; 
+text-decoration:none;}
+
+a:visited{ color:brown; 
+text-decoration:none;}
+
+a:hover{ color:blue; 
+text-decoration:underline;}
+
+a:active{ color:pink; 
+text-decoration:underline;}
+
+input[type=submit]{
+background-color:green; color:white; padding: 15px 80px;}
+
+input[type=reset]{
+background-color:red; color:white; padding: 15px 80px;}
+</style>
+<h2> my contact form </h2>
+	<label> first name: <input type = 'text' > </label>
+	<br> <br>
+	<label>last name: <input type = ' text' > </label>
+<br> <br>
+	
+	<p> best way of contact </p>
+	<br>
+<label> what do you prefer ?</label>
+	<select id= 'contactway'> 
+	<option value='cell'> cell phone </option>
+	<option value='email'> email </option>
+	<option value='vcall'> video call </option>
+	<option value='inperson'> in person meeting </option>
+ </select> <br> <br>
+	
+	<fieldset> <!--radio type menu-->
+		<legend> which is our closes office? (choose one)</legend>
+			<input type ="radio" name= " chieff">
+				<label> CHICAGO - NORTHSIDE </label> <br> <br>
+			<input type ="radio" name= " chieff">	
+				<label> CHICAGO - TOWNTOWN </label> <br> <br>
+			<input type ="radio" name= " chieff">
+				<label> CHICAGO - SOUTHSIDE </label>
+	
+	</fieldset>
+	
+<h3> add labels to ask user for date of birth </h3> <!-- month/date/year -->
+
+	<label> Date of birth: </label>
+	<input type="date"><br> <br>
+
+<!-- make a label to take the date of visit from the user -->
+	<label> date of visit </label>
+		<input type = 'date'><br> <br>             
+ 
+ <!-- input a color type-->
+	<label> select your favorite color: </label>
+		<input type = 'color'><br> <br>			
+
+<!-- input a number -->
+		<label> what is your favorite number: </label>
+			<input type = 'number' min='0' max='50' > <br> <br>
+
+<!-- attaching a file-->
+	<label> attach your business plan/resume </label>
+		<input type='file'> <br>  <br>
+		
+<!--- creating a sumit & reset button -->
+
+	<input type ='submit' value='sumbit'>
+	<input type='reset'>
+</form>
+
+
+</body>
+</html>	

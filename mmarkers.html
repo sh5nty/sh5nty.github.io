@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MapMarkers</title>
+    </head> 
+	
+	<style>
+#map {
+  height: 100%;
+}
+html,
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;}
+	</style>
+	
+<body>
+		<div id="map"> </div>
+		<h1> my first Marker on the map </h1>
+		<!--copy and paste from word doc-->
+<script src=
+"https://polyfill.io/v3/polyfill.min.js?features=default">
+	</script>      
+	<script
+      src=
+	  "https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer>
+	 </script>
+<script>
+	function intimap() {
+	const myLatLng = { lat: 41.988, ing: -87.7011 );
+	const map = new google.maps.Maps(
+	document.getElementById ("map"),
+	 {zoom: 16, 
+	center: myLatLng, 
+	});
+	
+	new google.maps.Marker ({ 
+	position: myLatLng,
+	map, 
+	title:"my madrasa!",
+	});
+}
+window.initMap = initMap;
+
+	</script>
+	</body>
+	</html>
